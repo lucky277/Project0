@@ -15,28 +15,17 @@
     <div class="navbar-header">
       <a class="navbar-brand" href="#">The best car carwash</a>
     </div>
-    <ul class="nav navbar-nav navbar-right">
+    <ul class="nav navbar-nav">
       <li class="active"><a href="#">Home</a></li>
-      <li><a href="Services.html">Services</a></li>
-      <li><a href="Gallery.html">Gallery</a></li>
-      <li><a href="contact.html">Contacts</a></li>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Gallery</a></li>
+      <li><a href="#">Contacts</a></li>
     </ul>
   </div>
 </nav>
 
 <div class="container">
-<div class="row">
-   <div class="col-sm-6">
-  <h3>We wash cars for a living</h3>
-  <p>We have been washing car for 4 years now from a humble beginning</p>
-  <p>This business was established in 2016 with only R50 which was used to buy 750ml sunlight dishwasher,100ml blackpolish and a pack of fibercloths.</p>
-  <p>we use used backet for water. We handwash the car.</p>
+  <h3>Inverted Navbar</h3>
+  <p>An inverted navbar is black instead of gray.</p>
 </div>
-
-<div class="col-sm-6">
-<img src="logo.jpg" class="img-responsive">
-</div>
-
-
-</body>
-</html>

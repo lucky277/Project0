@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  background-color: gray;
+}
+@media only screen and  (max-width: 600px) {
+  body{
+     background-color: green;
+  }
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width:25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: gray;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: gray;
+  font-size: 35px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<div style="text-align:center">
+  <h2>Welcome to our Gallery</h2>
+  <p>Types of car we wash:</p>
+</div>
+
+<!-- The four columns -->
+<div class="row">
+  <div class="column">
+    <img src="Carwash1.jpg" alt="suvcars" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="Passengervan.jpg" alt="van" style="width:100%" onclick="myFunction(this);">
+  </div>
+
+  <div class="column">
+    <img src="Bakkies.jpg" alt="Bakkies" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="carwash-3.jpg" alt="carwash-3" style="width:100%" onclick="myFunction(this);">
+  </div>
+
+  <div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:100%">
+  <div id="imgtext"></div>
+</div>
+
+<link rel="tylesheet" href="variables.css">
+    Cars we cator for
+    <ul>
+        <li>Passengervan</li>
+        <li>Familycars</li>
+        <li>Bakkies</li>
+    </ul>
+
+    Other cars we cator
+    <ol>
+        <li>Family suvcars</li>
+        <li>Family mini SUV</li>
+        <li>MiniVan</li>
+    </ol>
+
+</body>
+</html>
