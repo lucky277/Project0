@@ -59,11 +59,11 @@ a:hover{
 body{
     background-color: teal;
 }
-   label.logo{
-  color: white;
-  font-size: 10px;
-  line-height: 30px;
-  padding: 0 50px;
-  font-weight: bold;
+  label.logo{
+       color: white;
+       font-size: 10px;
+       line-height: 30px;
+       padding: 0 50px;
+       font-weight: bold;
   }
 }
