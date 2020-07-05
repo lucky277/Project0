@@ -41,11 +41,17 @@ a:hover{
 }
 @media (max-width: 768px){
   nav ul{
-    height: 200px;
+    width: 100%
     flex-direction: column;
     text-align: center;
 }
   body{
     background-color: red;
-  }
+}
+   label.logo{
+    font-size: 15px;
+    line-height: 30px;
+    padding: 0 50px;
+    font-weight: bold
+   }
 }
