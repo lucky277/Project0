@@ -52,8 +52,9 @@ a:hover{
 }
 @media only screen  and (max-width: 767px) {
   nav ul{
-    text-align: center; 
     width: 90%;
+    text-align: center; 
+    
 }
 body{
     background-color: teal;
