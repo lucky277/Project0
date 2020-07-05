@@ -52,9 +52,8 @@ a:hover{
 }
 @media (max-width: 768px){
   nav ul{
-    height: 10px;
-    flex-direction: column;
-    text-align: center;   
+    text-align: center; 
+    width: 90%;
 }
 body{
     background-color: teal;
