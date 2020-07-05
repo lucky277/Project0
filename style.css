@@ -60,6 +60,9 @@ body{
     background-color: teal;
 }
    label.logo{
-       display: none;
+    font-size: 15px;
+    line-height: 30px;
+    padding: 0 50px;
+    font-weight: bold
   }
 }
