@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+     <meta charset="utf-8">
+     <title>Gallery</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="gallery.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+<body>
+
+  <nav>
+    <label class="logo">We Wash Cars</label>
+     <ul>
+       <li><a href="index.html">Home</a></li>
+       <li><a href="price.html">Price</a></li>
+       <li><a href="gallery.html">Gallery</a></li>
+       <li><a href="intouch.html">Contact</a></li>
+     </ul>
+  </nav>
+
+  <style>
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    font-family: Arial;
+  }
+
+  .header {
+     text-align: center;
+     paddingg: 32px;
+  }
+
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+  /* Create four equal columns that sit next to each other */
+  .column {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 4px;
+    text-align: center;
+  }
+
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media  screen and  (max-width: 800px) {
+    .column  {
+      -ms-flex: 50%;
+       flex: 50%;
+      max-width: 50%;
+      background-color: green;
+    }
+  }
+
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+     body{
+       background-color: red;
+     }
+  }
+  </style>
+  <body>
+
+  <!-- Header -->
+  <div class="header">
+    <h1>Welcome to our Gallery</h1>
+  </div>
+
+  <!-- Photo Grid -->
+  <div class="row">
+     <div class="column">
+       <img src="car1.jpg" style="width:100%">
+       <img src="car2.jpg" style="width:100%">
+       <img src="car3.jpg" style="width:100%">
+       <img src="car4.jpg" style="width:100%">
+     </div>
+     <div class="column">
+       <img src="car5.jpg" style="width:100%">
+       <img src="car11.jpg" style="width:100%">
+       <img src="car33.jpg" style="width:100%">
+      </div>
+  </div>
+
+  <div class="container">
+    <h2>More Info</h2>
+    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Mobile carwash</button>
+    <div id="demo" class="collapse">
+      We also offers mobile carwash!!!! yes can wash your car at the comfort of your home... Please contact us for more info
+    </div>
+  </div>
+
+
+  </body>
+  </html>

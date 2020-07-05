@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box; }
+
+body {
+  font-family: Times; }
+
+nav {
+  background: #0082e6;
+  height: 80px;
+  width: 100%; }
+
+label.logo {
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold; }
+
+nav ul {
+  float: right;
+  margin-right: 80px; }
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px; }
+
+nav ul li a {
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase; }
+
+a:hover {
+  background: black; }
+
+h2 {
+  text-align: center;
+  text-indent: 50px;
+  color: red; }
+
+address {
+  font-size: 18px;
+  color: red;
+  text-align: center; }
+
+p {
+  font-size: 20px;
+  text-align: center; }
+
+div {
+  font-size: 20px;
+  text-align: center; }
+  div p {
+    color: green;
+    text-align: center; }
+  div ol {
+    color: green;
+    text-align: center;
+    list-style-position: inside; }
+    div ol li {
+      color: green;
+      text-align: center; }
+  div .cars, div .FamilyCar, div .Bakkies, div .PassengerVan {
+    color: #333;
+    border: 1px solid #bbb;
+    box-shadow: 1px 1px 0 #ddd;
+    margin: 0 0 10px;
+    padding: 15px;
+    text-align: center; }
+  div .Bakkies {
+    background-color: Pink; }
+  div .PassengerVan {
+    background-color: orange; }
+
+@media (max-width: 768px) {
+  nav ul {
+    height: 200px;
+    flex-direction: column;
+    text-align: center; }
+
+  body {
+    background-color: gray; } }
+
+/*# sourceMappingURL=intouch.css.map */
