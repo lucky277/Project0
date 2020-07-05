@@ -53,10 +53,9 @@ a:hover{
 @media (max-width: 768px){
   nav ul li{
     height: 10px;
-    float: right;
-    margin-right: 10px;
-    text-align: center;
     flex-direction: column;
+    text-align: center;
+    
 }
 body{
     background-color: teal;
