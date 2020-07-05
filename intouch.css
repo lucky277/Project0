@@ -79,9 +79,13 @@ div {
     background-color: orange; }
 
 @media (max-width: 768px) {
-  nav ul {
+  nav ul li a {
     width: 90%;
-    text-align: center; }
+    text-align: center;
+    font-size: 15px;
+    padding: 4px 6px;
+    border-radius: 3px;
+    text-transform: uppercase; }
 
   body {
     background-color: teal; }
