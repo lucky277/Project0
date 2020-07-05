@@ -78,12 +78,18 @@ div {
   div .PassengerVan {
     background-color: orange; }
 
-@media only screen and (max-width: 767px) {
+@media (max-width: 768px) {
   nav ul {
-    width: 100%;
+    width: 90%;
     text-align: center; }
 
   body {
-    background-color: gray; } }
+    background-color: teal; }
+
+  label.logo {
+    font-size: 15px;
+    line-height: 30px;
+    padding: 0 50px;
+    font-weight: bold; } }
 
 /*# sourceMappingURL=intouch.css.map */
