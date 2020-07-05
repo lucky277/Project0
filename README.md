@@ -7,7 +7,8 @@ Price page
 Gallery page
 -Pictures of cars we wash
 
-intouch page
+intouch page(contact tab)
 
 -Contains our physical address, contact details, our working hours and type of cars we cater for.
+*Contact page uses intouch.html
 
