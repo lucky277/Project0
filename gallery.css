@@ -39,14 +39,13 @@ nav ul li a{
 a:hover{
   background: black;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   nav ul{
     width: 90%;
-    flex-direction: column;
     text-align: center;
 }
   body{
-    background-color: red;
+    background-color: teal;
 }
    label.logo{
     font-size: 15px;
