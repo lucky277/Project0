@@ -78,10 +78,9 @@ div {
   div .PassengerVan {
     background-color: orange; }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   nav ul {
     width: 100%;
-    flex-direction: column;
     text-align: center; }
 
   body {
