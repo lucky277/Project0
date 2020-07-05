@@ -59,10 +59,6 @@ body{
     background-color: teal;
 }
    label.logo{
-       color: white;
-       font-size: 20px;
-       line-height: 40px;
-       padding: 0 50px;
-       font-weight: bold;
+       display: none;
   }
 }
