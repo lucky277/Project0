@@ -104,11 +104,16 @@ div {
 
 @media (max-width: 768px){
   nav ul{
-    height: 100px;
-    flex-direction: column;
+    width: 90%;
     text-align: center;
 }
   body{
       background-color: teal;
+  }
+   label.logo{
+    font-size: 15px;
+    line-height: 30px;
+    padding: 0 50px;
+    font-weight: bold
   }
 }
