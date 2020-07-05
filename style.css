@@ -56,6 +56,8 @@ a:hover{
     float: right;
     margin-right: 10px;
     text-align: center;
+    font-size: 8px;
+    padding: 4px 8px;
 }
 body{
     background-color: teal;
