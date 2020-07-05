@@ -52,7 +52,7 @@ a:hover{
 }
 @media only screen  and (max-width: 480px) {
   nav ul{
-    width: 80%;
+    width: 50%;
     text-align: center; 
     
 }
